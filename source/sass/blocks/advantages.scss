@@ -1,0 +1,114 @@
+.advantages {
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.title__advantages {
+  position: relative;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: $grey-dark;
+
+  @media (min-width: $tablet-width) {
+    font-size: 40px;
+    line-height: 64px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 55%;
+  }
+
+  @media (min-width: $desktop-full-width) {
+    font-size: 48px;
+    line-height: 64px;
+  }
+}
+
+.subtitle__advantages {
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 160%;
+    width: 95%;
+    margin: 22px auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 60%;
+  }
+
+  @media (min-width: $desktop-full-width) {
+    font-size: 25px;
+  }
+}
+
+.title__advantages-word {
+  padding-bottom: 5px;
+  border-bottom: 4px solid transparent;
+  border-image: $gradient;
+  border-image-slice: 1;
+  border-radius: 5px;
+}
+
+.advantages__list {
+  padding-left: 35px;
+  padding-right: 35px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 80px;
+    padding-left: 84px;
+    padding-right: 84px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    text-align: left;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 0;
+    padding-right: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 90px;
+  }
+
+  @media (min-width: $desktop-full-width) {
+    gap: 123px;
+  }
+}
+
+.advantages__item {
+  margin-top: 50px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 0;
+  }
+}
+
+.advantages__item-title {
+  @media (min-width: $tablet-width) {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 0;
+  }
+}
+
+.advantages__wrap {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: $purple;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 0;
+  }
+}

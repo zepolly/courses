@@ -1,0 +1,92 @@
+.promo {
+  margin-top: 40px;
+  position: relative;
+}
+
+.promo__list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $grey;
+  display: flex;
+  gap: 8px;
+}
+
+.promo__title {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 150%;
+  color: $grey-dark;
+  width: 70%;
+  margin-top: 44px;
+  margin-bottom: 24px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 0;
+    width: 100%;
+    font-size: 46px;
+    line-height: 65px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 46px;
+    line-height: 65px;
+    width: 70%;
+  }
+
+  @media (min-width: $desktop-full-width) {
+    font-size: 56px;
+    line-height: 80px;
+    width: 60%;
+  }
+}
+
+.promo__container {
+  display: flex;
+  gap: 25px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.promo__description {
+  margin: 0;
+}
+
+.promo__description-price {
+  font-size: 38px;
+  line-height: 55px;
+
+  @media (min-width: $tablet-width) {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+  }
+}
+
+.promo__img {
+  position: absolute;
+  right: -15px;
+  top: 15px;
+
+  @media (min-width: $tablet-width) {
+    top: 160px;
+  }
+
+  @media (min-width: $desktop-width) {
+    top: 25px;
+  }
+}
+
+.promo__text {
+  @media (min-width: $tablet-width) {
+    max-width: 65%;
+    font-size: 20px;
+  }
+
+  @media (min-width: $desktop-full-width) {
+    font-size: 25px;
+    width: 60%;
+  }
+}
+

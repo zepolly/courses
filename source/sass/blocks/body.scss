@@ -1,0 +1,57 @@
+.body {
+  position: relative;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 35px 15px;
+  font-family: "Lato", "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  background-color: $white;
+  color: $blue-dark;
+  overflow-x: hidden;
+
+  @media (min-width: $desktop-width) {
+    padding: 35px 40px;
+  }
+
+  @media (min-width: $desktop-full-width) {
+    padding: 35px 195px;
+  }
+}
+
+.body::before {
+
+  @media (min-width: $desktop-width) {
+    content: "";
+    background-image: url("../img/ellipse-one.png");
+    position: absolute;
+    width: 101px;
+    height: 585px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: -75px;
+    top: -75px;
+  }
+
+  @media (min-width: $desktop-full-width) {
+    left: 0px;
+    top: 0;
+  }
+}
+
+
+.body::after {
+  @media (min-width: $desktop-full-width) {
+    content: "";
+    background-image: url("../img/ellipse-two.png");
+    position: absolute;
+    width: 41px;
+    height: 761px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 0;
+    top: 350px;
+  }
+}
