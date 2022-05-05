@@ -334,6 +334,15 @@ a {
   color: inherit;
   cursor: pointer;
 }
+a:focus {
+  color: #8d03ac;
+}
+a:hover {
+  color: #8d03ac;
+}
+a:active {
+  color: #8d03ac;
+}
 
 ul {
   list-style: none;

@@ -6,6 +6,18 @@ a {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+
+ &:focus {
+  color: #8d03ac;
+  }
+
+  &:hover {
+    color: #8d03ac;
+  }
+
+  &:active {
+    color: #8d03ac;
+  }
 }
 
 ul {
